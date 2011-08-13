@@ -160,13 +160,12 @@ package com.FriedTaco.taco.godPowers;
 	    		System.out.println(message + "slay.");
 	    	} catch(Exception e) {
 	    		System.out.println(error + "slay.");
-	    		try{
-	    			getCommand("smite").setExecutor(new SlayCommand(this));
-	    			System.out.println(message + "smite in place of slay.");
-	    		}catch(Exception e1){
-	    			System.out.println(error + "smite in place of slay.");
-	    		}
 	    	}try{
+    			getCommand("smite").setExecutor(new SlayCommand(this));
+    			System.out.println(message + "smite.");
+    		} catch(Exception e){
+    			System.out.println(error + "smite.");
+    		}try{
 	    		getCommand("maim").setExecutor(new MaimCommand(this));
 	    		System.out.println(message + "maim.");
 	    	} catch(Exception e) {
