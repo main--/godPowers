@@ -154,7 +154,7 @@ package com.FriedTaco.taco.godPowers;
 	    		getCommand("die").setExecutor(new DieCommand(this));
 	    		System.out.println(message + "die.");
 	    	} catch(Exception e) {
-	    		System.out.println(error + "zeus.");
+	    		System.out.println(error + "die.");
 	    	}try{
 	    		getCommand("slay").setExecutor(new SlayCommand(this));
 	    		System.out.println(message + "slay.");
