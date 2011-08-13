@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 public class commands implements CommandExecutor
 {
 	private Player player;
+	@SuppressWarnings("unused")
 	private final godPowers plugin;
     public commands(godPowers instance) 
     {

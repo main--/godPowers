@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 public class VulcanCommand implements CommandExecutor
 {
 	private Player player;
+	@SuppressWarnings("unused")
 	private final godPowers plugin;
     public VulcanCommand(godPowers instance) 
     {

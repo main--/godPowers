@@ -7,6 +7,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
 
+@SuppressWarnings("unused")
 public class godModeCommand implements CommandExecutor
 {
 	private Player player;
